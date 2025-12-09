@@ -1,21 +1,28 @@
 # Reset AnyDesk Trial - Complete Cleanup Script for Windows
 
-Este script em batch foi desenvolvido para **remover completamente o AnyDesk do sistema**, incluindo:
+This batch script is designed to **completely remove AnyDesk from your Windows system**, including:
 
-- Encerramento forçado dos processos do AnyDesk (`AnyDesk.exe` e `ad.exe`)
-- Exclusão da pasta de dados do AnyDesk para todos os usuários do sistema (`AppData\Roaming\AnyDesk`)
-- Exclusão da pasta do AnyDesk em `C:\ProgramData`
-- Exclusão de chaves de registro relacionadas ao AnyDesk
-- Remoção de entradas de desinstalação para tentar **renovar o período de avaliação (trial)**
+- Forced termination of AnyDesk processes (`AnyDesk.exe` and `ad.exe`)
+- Deletion of AnyDesk data folders for all system users (`AppData\Roaming\AnyDesk`)
+- Removal of the AnyDesk folder in `C:\ProgramData`
+- Deletion of registry keys related to AnyDesk
+- Removal of uninstall entries to attempt **renewal of the trial period**
 
-### ⚠️ Aviso
-Este script deve ser executado com **permissões de administrador**, pois faz alterações em registros do sistema e arquivos protegidos.
+### ⚠️ Warning
+This script must be run with **administrator privileges** as it modifies system registry and protected files.
 
-### 📌 Uso
-1. Salve o conteúdo do script em um arquivo `.bat`, por exemplo: `reset_anydesk.bat`
-2. Clique com o botão direito sobre o arquivo e escolha **Executar como administrador**
-3. Aguarde a execução completa e pressione uma tecla para sair
+### 📌 Usage
+1. Save the script content to a `.bat` file, for example: `reset_anydesk.bat`
+2. **Right-click the file and select "Run as administrator"**
+3. Wait for the script to finish and press any key to exit
 
-### ❗ Importante
-- Use com responsabilidade. Este script remove dados permanentemente.
-- Não recomendado em ambientes de produção sem autorização apropriada.
+### ❗ Important Notes
+- Use responsibly. This script will permanently delete AnyDesk data and settings.
+- Not recommended for production environments or without proper authorization.
+- Some traces or licensing information may remain depending on AnyDesk updates or system configuration.
+- Always back up important data before running cleanup scripts.
+
+### 💡 Additional Information
+- This script is intended for educational and recovery purposes only.
+- For complete removal, ensure AnyDesk is not running before executing the script.
+- If you encounter permission errors, verify you are running as an administrator.
